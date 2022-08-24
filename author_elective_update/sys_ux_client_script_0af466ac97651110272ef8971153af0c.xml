@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Record Page default">39f4666c97651110272ef8971153afbf</macroponent>
+        <name>secondary_items/NODE__isHidden</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+	if (api.context.app.record_secondary_values_location !== 'sidebar'
+    && api.data.gform && api.data.gform.nowRecordCommonHeader
+    && api.data.gform.nowRecordCommonHeader.secondaryItems
+    && api.data.gform.nowRecordCommonHeader.secondaryItems.length)
+    return false;
+  return true;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 06:46:08</sys_created_on>
+        <sys_id>0af466ac97651110272ef8971153af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>secondary_items/NODE__isHidden</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_0af466ac97651110272ef8971153af0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 06:46:08</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>7214ff2cdb5d5d5452cec59705961940</instance_id>
+        <instance_name>dev131381</instance_name>
+        <name>sys_ux_client_script_0af466ac97651110272ef8971153af0c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Record Page default"&gt;39f4666c97651110272ef8971153afbf&lt;/macroponent&gt;&lt;name&gt;secondary_items/NODE__isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+	if (api.context.app.record_secondary_values_location !== 'sidebar'
+    &amp;&amp; api.data.gform &amp;&amp; api.data.gform.nowRecordCommonHeader
+    &amp;&amp; api.data.gform.nowRecordCommonHeader.secondaryItems
+    &amp;&amp; api.data.gform.nowRecordCommonHeader.secondaryItems.length)
+    return false;
+  return true;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-23 06:46:08&lt;/sys_created_on&gt;&lt;sys_id&gt;0af466ac97651110272ef8971153af0c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;secondary_items/NODE__isHidden&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_0af466ac97651110272ef8971153af0c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-23 06:46:08&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>194684905</payload_hash>
+        <record_name>secondary_items/NODE__isHidden</record_name>
+        <reverted_from/>
+        <source>0a47001c976d1110272ef8971153af7f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 06:46:57</sys_created_on>
+        <sys_id>02252eac97651110272ef8971153af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c9744a2b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 06:46:57</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>c6252eac69651110fc399c2a28c7a47e</update_guid>
+        <update_guid_history>c6252eac69651110fc399c2a28c7a47e:194684905,4bf4a6ac6a65111094e0213e8d708286:1217774358,4ff4a6acea651110a0d57e40c52c0264:194684905,aaf466ac2d6511107721f04dd398d7b1:1217774358,caf466ac6f651110c184534e3799cf0e:-1280370262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 06:47:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0976fb7fec0149cbb666e874df1e8f01</sys_id>
+        <sys_metadata>0af466ac97651110272ef8971153af0c</sys_metadata>
+        <sys_name>secondary_items/NODE__isHidden</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_0af466ac97651110272ef8971153af0c</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_0af466ac97651110272ef8971153af0c">02252eac97651110272ef8971153af7f</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

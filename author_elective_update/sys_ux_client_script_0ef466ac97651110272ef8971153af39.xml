@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Record Page default">39f4666c97651110272ef8971153afbf</macroponent>
+        <name>header_container/NODE__isHidden</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[function evaluateProperty({api}) {
+	return !api.state.isValidRecord;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 06:46:08</sys_created_on>
+        <sys_id>0ef466ac97651110272ef8971153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>header_container/NODE__isHidden</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_0ef466ac97651110272ef8971153af39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 06:46:08</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>7214ff2cdb5d5d5452cec59705961940</instance_id>
+        <instance_name>dev131381</instance_name>
+        <name>sys_ux_client_script_0ef466ac97651110272ef8971153af39</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Record Page default"&gt;39f4666c97651110272ef8971153afbf&lt;/macroponent&gt;&lt;name&gt;header_container/NODE__isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[function evaluateProperty({api}) {
+	return !api.state.isValidRecord;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-23 06:46:08&lt;/sys_created_on&gt;&lt;sys_id&gt;0ef466ac97651110272ef8971153af39&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;header_container/NODE__isHidden&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_0ef466ac97651110272ef8971153af39&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-23 06:46:08&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>939035208</payload_hash>
+        <record_name>header_container/NODE__isHidden</record_name>
+        <reverted_from/>
+        <source>0a47001c976d1110272ef8971153af7f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 06:46:57</sys_created_on>
+        <sys_id>8a252eac97651110272ef8971153af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c9744a4f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 06:46:57</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>42252eac7765111002130ad5b8353c81</update_guid>
+        <update_guid_history>42252eac7765111002130ad5b8353c81:939035208,c3f4a6ac74651110a20e63068b80c889:-719910917,47f4a6ac66651110ee1a1464f840be67:939035208,26f466ace765111022d2f7f311eff4b4:-719910917,cef466acde651110d4ad66d8d65c3b3c:1355466983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 06:46:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>4e0efbe0d97449ae8bbb2136e9a3f7e9</sys_id>
+        <sys_metadata>0ef466ac97651110272ef8971153af39</sys_metadata>
+        <sys_name>header_container/NODE__isHidden</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_0ef466ac97651110272ef8971153af39</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_0ef466ac97651110272ef8971153af39">8a252eac97651110272ef8971153af81</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

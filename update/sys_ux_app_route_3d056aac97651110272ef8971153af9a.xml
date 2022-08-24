@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Service Operations Workspace">4d69d0ed73c4301045216238edf6a7ea</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>Record Page default Cancel Change Request</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page default">39f4666c97651110272ef8971153afbf</parent_macroponent>
+        <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
+        <route_type>cancel-change-request</route_type>
+        <screen_type display_value="Cancel Change Request">06817ad2a750011003396c94d17901bb</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 06:46:24</sys_created_on>
+        <sys_id>3d056aac97651110272ef8971153af9a</sys_id>
+        <sys_name>Record Page default Cancel Change Request</sys_name>
+        <sys_package display_value="Change Management - Service Operations Workspace" source="sn_sow_chg">bccbdbb023213010785ddc1756bf6579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_3d056aac97651110272ef8971153af9a</sys_update_name>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d056aac97651110272ef8971153af9a"/>
+</record_update>
